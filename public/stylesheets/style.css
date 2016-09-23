@@ -1,0 +1,91 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	/*overflow-x: hidden;
+	overflow-y: hidden;*/
+	/*background-color: #3e6e00;
+    //background-image: url("https://www.transparenttextures.com/patterns/binding-dark.png");*/
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+img{
+	width: 40%;
+}
+canvas{
+    position:absolute;
+    left:0px;
+    top:0px;
+   /* margin-top: 150px;*/
+/*	background-color: #3e6e00;
+background-image: url("https://www.transparenttextures.com/patterns/binding-dark.png");*/
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+#c{
+    background-image: url("/images/map-min.jpg");
+    background-size: cover;
+    
+    z-index: 0;
+}
+#p1{
+    
+    z-index: 1;
+}
+#p2{
+    
+    z-index: 2;
+}
+.playCanv{
+    z-index: 1;
+}
+#b{
+    
+    z-index: 0;
+}
+
+
+.bbtn4{
+	position: fixed;
+	top: 100px;
+	right: 100px;
+	z-index: 3;
+}
+
+.bbtn2{
+    	position: fixed;
+	top: 100px;
+	right: 100px;
+	z-index: 3;
+}
+
+#volume{
+    font-size: 30px;
+    position: fixed;
+    top:20;
+    right: 20;
+    color: orange;
+    z-index: 6;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+#table{
+    background-color: white;
+    z-index: 1000;
+    position:fixed;
+    
+    top: 100;
+    left: 200;
+}
+#EndGame{
+    display:none;
+    z-index: 1000;
+    position: fixed;
+    top: 50px;
+    left: 500px;
+}
+#restart{
+    display:none;
+    z-index: 1000;
+    position: fixed;
+    top: 103px;
+    left: 500px;
+}

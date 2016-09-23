@@ -1,0 +1,73 @@
+.scoreboard{
+  /*background:#999;*/
+    text-decoration: none;
+    padding: 1.8em 1em calc(1.8em + 3px);
+    /*border-radius: 3px;*/
+    /*background: rgb(64,199,129);*/
+    /*background:   rgba(66, 66, 66, 0.2);*/
+    /*box-shadow: 0 -3px rgb(53,167,110) inset;*/
+    transition: 0.2s;
+    /*width: 400px;*/
+    margin-left:1px;
+    width:24%;
+    overflow:hidden;
+    z-index: 6;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#playerscore{
+  /*background:yellow;*/
+  /*height:30px;*/
+  /*display: block;*/
+   z-index: 6;
+}
+
+span.playername,.playerpoints{
+  color:#fff;
+  /*margin:0px;*/
+  display: block;
+  float: left;
+  /*width: 10%;*/
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0 10px;
+  font-family: "BeerRegular";
+  border-bottom: 1pt solid rgba(0, 0, 0, 0.5);
+}
+span.playername{
+  /*background:red;*/
+  background: rgba(0, 0, 0, 0.5);
+  width: 75%;
+  text-align: left;
+  padding: 0 0 3pt 10pt;
+  font-size: 18pt;
+}
+span.playerpoints{
+  background: rgba(0, 0, 0, 0.6);
+  /*text-align: right;*/
+  font-size: 20pt;
+  font-weight: 700;
+}
+
+span.playername:hover,.playerpoints:hover{
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/*#playerpoints0{
+  background: rgba(56, 175, 80, 0.7);
+}*/
+
+.activePlayerNow{
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  color: #ffffff;
+  z-index: 6;
+  position: fixed;
+  bottom: 140;
+  left: 19;
+  font-family: "BeerRegular";
+  text-align: center;
+  font-size: 18pt;
+  padding: 5px 15px 5px 15px;
+}

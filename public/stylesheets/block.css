@@ -1,0 +1,88 @@
+body.home{
+    /*background: -webkit-radial-gradient(circle, #1a82f7, #2F2727);*/
+    background-color: #008c41;
+    background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png");
+}
+#container{
+    /*width: 100px;
+    height: 100px;
+    border:	1px solid #000;*/
+    margin-left: 10px;
+    /*background: -webkit-radial-gradient(circle, #1a82f7, #2F2727);*/
+}
+p#randomnumber{
+    color:#FF0000;
+    /*background: #111;*/
+    /*text-align: center;*/
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+a.buttonBlock {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  background: rgb(64,199,129);
+  box-shadow: 0 -3px rgb(53,167,110) inset;
+  transition: 0.2s;
+} 
+a.buttonBlock:hover { background: rgb(53, 167, 110); }
+a.buttonBlock:active {
+  background: rgb(33,147,90);
+  box-shadow: 0 3px rgb(33,147,90) inset;
+}
+
+p#gametitle{
+    margin-top:4%;
+    text-align:center;
+    font-family: "BeerRegular";
+    font-size:90pt;
+}
+
+@font-face {
+    font-family: "BeerRegular";
+    src: url("../fonts/BeerRegular/BeerRegular.eot");
+    src: url("../fonts/BeerRegular/BeerRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/BeerRegular/BeerRegular.woff") format("woff"),
+    url("../fonts/BeerRegular/BeerRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*.buttonOnePlayer,.buttonManyPlayers{
+    font-size:28pt;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: 1.8em 1em calc(1.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+    width: 400px;
+    float: left;
+    margin-left:1px;
+}
+.buttonOnePlayer:hover,.buttonManyPlayers:hover { background: rgb(53, 167, 110); }
+.buttonOnePlayer:active,.buttonManyPlayers:active {
+  background: rgb(33,147,90);
+  box-shadow: 0 3px rgb(33,147,90) inset;
+}
+
+#buttons{
+    text-align:center;
+    margin-left: 29%;
+    margin-top: 3%;
+}*/
+
+
+.wrapperform{
+    /*position: absolute;*/
+    /*left: 40%;*/
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

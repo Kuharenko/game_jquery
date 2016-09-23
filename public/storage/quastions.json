@@ -1,0 +1,44 @@
+[
+{
+  "question":"How are you?",
+  "ansvers": [
+    {
+      "boolean": true,
+      "ans":"I am fine"
+    },
+    {
+      "boolean": false,
+      "ans":"Not bad"
+    },
+    {
+      "boolean": false,
+      "ans":"Fuck you!"
+    },
+    {
+      "boolean": false,
+      "ans":"Are you serious?"
+    }
+  ]
+},
+{
+  "question":"Как дела?",
+  "ansvers": [
+    {
+      "boolean": false,
+      "ans":"Все ОК"
+    },
+    {
+      "boolean": false,
+      "ans":"Не плохо"
+    },
+    {
+      "boolean": true,
+      "ans":"Оно работает"
+    },
+    {
+      "boolean": false,
+      "ans":"Бугагашеньки!"
+    }
+  ]
+}
+]

@@ -1,0 +1,37 @@
+.container
+    col-lg-12#canv
+        canvas#c
+    audio#sound
+        source(src='/sound/toggle_switch.mp3')
+    span#volume.glyphicon.glyphicon-volume-up
+    
+    #dialogWrapper
+        .containerMil
+            .quastions 
+            .wrappercols#dia
+                .ans#ans1 
+                .ans#ans2 
+                .ans#ans3 
+                .ans#ans4 
+        .scorewrapper  
+            .scorebox 
+                span#scoremessage 
+        .conteinerQuest
+            .quest
+            button#complete Complete
+            button#fail Fail
+    .scoreboard
+        #playerscore
+    .activePlayerNow
+    .wrappercube
+        .wrapbuttonsthrowcube
+            button#generatecubenumber Generate
+            button(id='acceptcubenumber' disabled) Accept
+        .cubenumber
+            span#cubenumber 0
+    div.alert.alert-success#EndGame 
+    input#restart.btn.btn-success.btn-md(type="button" value="Начать сначала")
+    script.
+        var ssss = "#{GetPlayers}";
+        var que = "#{quest}";
+        

@@ -1,0 +1,26 @@
+body.home
+    form(action='/', method='POST')
+        .playerBox
+            .countPlayers Количество игроков:
+            <select id="menuCounPlayer" size="1">
+                <option selected="selected" value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+            </br>
+            .wrapper
+                <input type="checkbox" class="checkbox" id="checkbox-1" />
+                    <label for="checkbox-1" class="cbBlock" >Случайные ники</label>
+                    <input type="checkbox" class="checkbox" id="checkboxQuest" />
+                    <label for="checkboxQuest" class="cbBlock" >Activeate quests</label>  
+        <input type="text" class="inputPl" id="player0" name="player0" value="Player 1" size="20" placeholder="введите имя игрока"></br>
+        
+        #main
+        input(type='submit' value='PLAY' id='playBtn')
